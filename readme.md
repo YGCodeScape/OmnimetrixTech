@@ -67,6 +67,10 @@ A team of passionate builders shaping the future with a modern mindset.
 * Built with a long-term vision
 
 ---
+🌐 Live Preview
+
+🔗 https://your-live-link-here.com (add after deployment)
+---
 
 ## 📬 Connect With Us
 
