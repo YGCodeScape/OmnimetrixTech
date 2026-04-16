@@ -69,7 +69,7 @@ A team of passionate builders shaping the future with a modern mindset.
 ---
 🌐 Live Preview
 
-🔗 https://your-live-link-here.com (add after deployment)
+🔗 https://tindereffectyg.netlify.app/
 ---
 
 ## 📬 Connect With Us
