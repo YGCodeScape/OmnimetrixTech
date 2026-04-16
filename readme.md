@@ -1,115 +1,56 @@
-# 🚀 OmnimetrixTech — Modern Startup Portfolio
+# OmnimetrixTech 🚀
 
-> From domain to deployment — modern, affordable, and built to scale.
-
-OmnimetrixTech is a **Gen-Z driven tech startup portfolio website** showcasing services, team, and vision with a modern UI and smooth user experience.
-
-This project is built as a **single-page dynamic portfolio website** using core frontend technologies with a focus on **clean design, responsiveness, and performance**.
+**From domain to deployment  modern, affordable, and built to scale.**
 
 ---
 
-## 🌐 Live Preview
+## 🧠 Who We Are
 
-🔗 https://your-live-link-here.com *(add after deployment)*
+OmnimetrixTech is a Gen-Z driven tech startup focused on building **modern, scalable, and high-performance digital products**.
 
----
-
-## 🧠 About the Project
-
-OmnimetrixTech represents a new era of developers — combining **creative UI**, **clean architecture**, and **scalable thinking**.
-
-This website is designed to:
-
-* Showcase services clearly
-* Build trust with modern UI
-* Convert visitors into clients
+We combine **clean design**, **practical development**, and **forward-thinking ideas** to deliver solutions that are not just functional  but impactful.
 
 ---
 
-## ✨ Features
+## ⚡ What We Do
 
-* 🎯 Full-screen modern landing page
-* ⚡ Dynamic hero section (changing text / animations)
-* 🧊 Minimal + clean UI design
-* 📱 Fully responsive layout
-* 🎴 Services section with pricing
-* 👥 Team section with profiles
-* 📊 Vision & stats section
-* 📧 Functional contact form UI
-* 🎬 Smooth scrolling & subtle animations (GSAP)
+We provide end-to-end digital solutions:
+
+* 🌐 **Static Websites** — Fast, SEO-ready, modern UI
+* 🧩 **Dynamic Websites** — Custom functionality with backend integration
+* 📊 **Web Applications** — Scalable dashboards & systems
+* 📱 **Mobile App Solutions** — Flexible development plans
+* 🛠️ **Maintenance & Support** — Reliable long-term support
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Our Approach
 
-* **HTML5**
-* **CSS3**
-* **JavaScript (Vanilla JS)**
-* **GSAP (Animations)**
-* **Remix Icons**
+* Simplicity over complexity
+* Performance over unnecessary features
+* Design with purpose
+* Built to scale from day one
 
----
-
-## 📁 Project Structure
-
-```
-OmnimetrixTech/
-│── index.html
-│── /styles
-│    └── main.css
-│── /scripts
-│    └── app.js
-│── /assets
-│    ├── images
-│    └── icons
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YGCodeScape/OmnimetrixTech.git
-```
-
-### 2. Open project
-
-```bash
-cd OmnimetrixTech
-```
-
-### 3. Run locally
-
-Just open `index.html` in your browser.
-
----
-
-## 💼 Services Offered
-
-* Static Websites — ₹250/page
-* Dynamic Websites — ₹5K–12K
-* Web Applications — ₹8K–20K
-* Mobile App (custom plans)
-* Maintenance & Support (₹1000–₹5000)
+We focus on delivering **real value**, not just code.
 
 ---
 
 ## 👥 Team
 
-* Altamash Siddique — CEO
-* Yash Gaikwad — CTO
-* Sumedh Kharat — COO
-* Prachi Mittra — CMO
-* Asad Choudhary — CFO
-* Akash Vishwakarma — CSO
+* **Altamash Siddique** — CEO
+* **Yash Gaikwad** — CTO
+* **Sumedh Kharat** — COO
+* **Prachi Mittra** — CMO
+* **Asad Choudhary** — CFO
+* **Akash Vishwakarma** — CSO
+
+A team of passionate builders shaping the future with a modern mindset.
 
 ---
 
-## 🎯 Vision
+## 📊 Vision
 
-> Building scalable, modern, and impactful digital products with clarity and precision.
+> Building digital products that are simple, scalable, and future-ready.
 
 * 7+ Projects
 * 20+ Clients
@@ -118,34 +59,22 @@ Just open `index.html` in your browser.
 
 ---
 
-## 📌 Future Improvements
+## 💼 Why OmnimetrixTech?
 
-* 🔹 Backend integration for contact form
-* 🔹 CMS integration for dynamic content
-* 🔹 Advanced animations & micro-interactions
-* 🔹 SEO optimization
-* 🔹 Performance enhancements
-
----
-
-## 🤝 Contributing
-
-This is currently a startup project, but suggestions and ideas are welcome.
+* Clean and modern UI/UX
+* Affordable and scalable solutions
+* Fast delivery with attention to detail
+* Built with a long-term vision
 
 ---
 
-## 📬 Contact
+## 📬 Connect With Us
 
-📧 [your-email@example.com](mailto:your-email@example.com)
-🌐 (Add portfolio link)
-📸 (Add social links)
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub — it helps a lot!
+* 🌐 Website: (Add your link)
+* 📧 Email: (Add your email)
+* 💼 LinkedIn: (Add link)
+* 📸 Instagram: (Optional)
 
 ---
 
-### © 2026 OmnimetrixTech. All rights reserved.
+### © OmnimetrixTech — Building the Future, One Product at a Time.
