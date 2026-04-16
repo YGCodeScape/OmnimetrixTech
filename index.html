@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OmnimetrixTech | Built to Scale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Syne:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Scan line effect -->
+  <!-- <div class="scan-line"></div> -->
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-logo">Omni<span>metrix</span>Tech</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Quote</button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero" onclick="closeMobile()">Home</a>
+    <a href="#services" onclick="closeMobile()">Services</a>
+    <a href="#team" onclick="closeMobile()">Team</a>
+    <a href="#vision" onclick="closeMobile()">Vision</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <!-- Slide 1 -->
+    <div class="hero-slide active" id="slide-0">
+      <div class="slide-bg slide1-bg"></div>
+      <div class="hero-content">
+        <div class="hero-eyebrow"><div class="eyebrow-dot"></div>Next-Gen Tech Studio</div>
+        <h1 class="hero-title">
+          <span class="glitch" data-text="Built">Built</span><br>
+          <span class="neon-word">To Scale.</span><br>
+          Built to Last.
+        </h1>
+        <p class="hero-sub">From domain to deployment modern, affordable, and engineered to grow. OmnimetrixTech delivers end-to end digital products with neon precision.</p>
+        <div class="hero-btns">
+          <a href="#services" class="btn-primary"><i class="ri-rocket-line"></i> Explore Services</a>
+          <a href="#contact" class="btn-outline"><i class="ri-chat-3-line"></i> Let's Talk</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide" id="slide-1">
+      <div class="slide-bg slide2-bg"></div>
+      <div class="hero-content">
+        <div class="hero-eyebrow"><div class="eyebrow-dot"></div>Gen Z Tech Minds</div>
+        <h1 class="hero-title">
+          Clean Code,<br>
+          <span class="purple-word">Precise</span><br>
+          <span class="glitch" data-text="Execution.">Execution.</span>
+        </h1>
+        <p class="hero-sub">We think different. We build different. A startup born from campus energy and fueled by a new era of digital craftsmanship.</p>
+        <div class="hero-btns">
+          <a href="#team" class="btn-primary"><i class="ri-team-line"></i> Meet The Team</a>
+          <a href="#vision" class="btn-outline"><i class="ri-eye-line"></i> Our Vision</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-slide" id="slide-2">
+      <div class="slide-bg slide3-bg"></div>
+      <div class="hero-content">
+        <div class="hero-eyebrow"><div class="eyebrow-dot"></div>Affordable Excellence</div>
+        <h1 class="hero-title">
+          <span class="neon-word">Websites.</span><br>
+          Apps. Ideas.<br>
+          <span class="glitch" data-text="Delivered.">Delivered.</span>
+        </h1>
+        <p class="hero-sub">Static sites to complex web apps we cover every layer of the digital stack at prices that make sense for your business stage.</p>
+        <div class="hero-btns">
+          <a href="#services" class="btn-primary"><i class="ri-price-tag-3-line"></i> See Pricing</a>
+          <a href="#contact" class="btn-outline"><i class="ri-mail-send-line"></i> Get a Quote</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid decoration -->
+    <svg class="hero-grid" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <line x1="40" y1="0" x2="0" y2="40" stroke="#00ffe7" stroke-width="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="500" height="500" fill="url(#grid)"/>
+    </svg>
+
+    <!-- Slide indicators -->
+    <div class="slide-indicators">
+      <div class="slide-dot active" onclick="goToSlide(0)"></div>
+      <div class="slide-dot" onclick="goToSlide(1)"></div>
+      <div class="slide-dot" onclick="goToSlide(2)"></div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+
+    <!-- Floating particles -->
+    <div id="particles"></div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services">
+    <div class="grid-lines"></div>
+    <div class="services-header">
+      <div class="section-tag">What We Build</div>
+      <h2 class="section-title">Our <span style="color:var(--neon)">Services</span></h2>
+      <p style="color:var(--text-dim); max-width:520px; line-height:1.7; font-size:0.92rem;">Every service crafted with Gen Z clarity. No fluff, no bloat just clean, scalable solutions.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid">
+      <!-- Cards injected by JS -->
+    </div>
+  </section>
+
+  <!-- SERVICE MODAL -->
+  <div class="modal-overlay" id="serviceModal">
+    <div class="modal" id="modalContent">
+      <button class="modal-close" id="modalCloseBtn"><i class="ri-close-line"></i></button>
+      <div class="modal-icon" id="modalIcon"></div>
+      <h3 class="modal-title" id="modalTitle"></h3>
+      <div class="modal-price-tag" id="modalPrice"></div>
+      <p class="modal-desc" id="modalDesc"></p>
+      <div class="modal-features-title">What's Included</div>
+      <ul class="modal-features" id="modalFeatures"></ul>
+      <a href="#contact" class="modal-cta" id="modalCtaBtn"><i class="ri-mail-send-line"></i> Get This Service</a>
+    </div>
+  </div>
+
+  <!-- TEAM SECTION -->
+  <section id="team">
+    <div class="team-header">
+      <div class="section-tag">The People</div>
+      <h2 class="section-title">Meet The <span style="color:var(--neon)">Team</span></h2>
+      <p style="color:var(--text-dim); max-width:520px; line-height:1.7; font-size:0.92rem;">A collective of college born innovators with one mission: to redefine how digital products are built.</p>
+    </div>
+    <div class="team-slider-wrapper">
+      <div class="team-track" id="teamTrack">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+    <div class="team-nav">
+      <button class="team-nav-btn" onclick="slideTeam(-1)"><i class="ri-arrow-left-line"></i></button>
+      <button class="team-nav-btn" onclick="slideTeam(1)"><i class="ri-arrow-right-line"></i></button>
+    </div>
+    <div class="team-dots" id="teamDots"></div>
+  </section>
+
+  <!-- VISION SECTION -->
+  <section id="vision">
+    <div class="vision-glow"></div>
+    <div class="grid-lines"></div>
+    <div class="vision-inner">
+      <div>
+        <div class="section-tag">Why We Exist</div>
+        <h2 class="section-title" style="margin-bottom:1.5rem;">Our <span style="color:var(--neon)">Vision</span></h2>
+        <p class="vision-statement">"To democratize digital excellence making world-class web products accessible to every founder, startup, and dreamer."</p>
+        <p class="vision-text">We're not just another dev shop. We're a crew of college engineers who got tired of overpriced, slow, outdated agencies. OmnimetrixTech was born from the belief that great software shouldn't cost a fortune and that clean thinking beats complex tools every time. Gen Z mindset. Senior grade execution.</p>
+        <div style="margin-top:2rem; display:flex; gap:1rem; flex-wrap:wrap;">
+          <a href="#services" class="btn-primary"><i class="ri-rocket-line"></i> Start a Project</a>
+        </div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-num" data-count="7">0</div>
+          <div class="stat-label">Projects Launched</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-count="20">0</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-count="99" data-suffix="%">0</div>
+          <div class="stat-label">Satisfaction Rate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-suffix="/7">24</div>
+          <div class="stat-label">Support Hours</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div>
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Let's <span style="color:var(--neon)">Build</span><br>Together</h2>
+        <p style="color:var(--text-dim); line-height:1.7; font-size:0.92rem; margin-bottom:3rem;">Got an idea? We're always on for a discovery call. Drop us a message and we'll get back within 24 hours.</p>
+
+        <div class="contact-item">
+          <div class="contact-item-icon"><i class="ri-mail-line"></i></div>
+          <div class="contact-item-text">
+            <div class="contact-item-label">Email</div>
+            <div class="contact-item-value">omnimetrixtech6@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon"><i class="ri-map-pin-line"></i></div>
+          <div class="contact-item-text">
+            <div class="contact-item-label">Contact Number</div>
+            <div class="contact-item-value">91+ 9819212579 <br />91+ 8879585701 </div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon"><i class="ri-github-line"></i></div>
+          <div class="contact-item-text">
+            <div class="contact-item-label">GitHub</div>
+            <div class="contact-item-value">github.com/omnimetrixtech</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon"><i class="ri-linkedin-box-line"></i></div>
+          <div class="contact-item-text">
+            <div class="contact-item-label">LinkedIn</div>
+            <div class="contact-item-value">linkedin.com/company/omnimetrixtech</div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3 style="font-family:var(--font-display); font-size:1.1rem; margin-bottom:1.8rem; color:var(--neon);">Send a Message<span class="blink" style="margin-left:4px;">_</span></h3>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Name *</label>
+              <input type="text" class="form-input" id="fname" placeholder="Your name">
+              <div class="field-error" id="fnameErr">Please enter your name</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email *</label>
+              <input type="email" class="form-input" id="femail" placeholder="your@email.com">
+              <div class="field-error" id="femailErr">Enter a valid email</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Service Interested In</label>
+            <select class="form-select form-input" id="fservice">
+              <option value="">Select a service...</option>
+              <option>Static Website</option>
+              <option>Dynamic Website</option>
+              <option>Web Application</option>
+              <option>Mobile App</option>
+              <option>Maintenance & Support</option>
+              <option>Full-Stack Product</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message *</label>
+            <textarea class="form-textarea" id="fmessage" placeholder="Tell us about your project..."></textarea>
+            <div class="field-error" id="fmessageErr">Please enter your message</div>
+          </div>
+          <button type="submit" class="form-submit"><i class="ri-send-plane-line"></i> Send Message</button>
+          <div class="form-msg" id="formMsg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">OmnimetrixTech</div>
+    <div class="footer-copy">© 2025 OmnimetrixTech. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+</html>
