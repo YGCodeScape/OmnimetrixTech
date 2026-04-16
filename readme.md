@@ -1,143 +1,151 @@
-Design a modern, minimal, single-page portfolio website for a tech startup named "OmnimetrixTech".
+# 🚀 OmnimetrixTech — Modern Startup Portfolio
 
-STYLE:
+> From domain to deployment — modern, affordable, and built to scale.
 
-* Clean, minimal, and professional (no heavy glow, no flashy effects)
-* Dark theme with subtle contrast OR light theme with soft neutrals
-* Use limited accent color (muted cyan or soft blue)
-* Plenty of whitespace, clean spacing, and grid alignment
-* Inspired by Apple, Linear, Vercel, Notion
+OmnimetrixTech is a **Gen-Z driven tech startup portfolio website** showcasing services, team, and vision with a modern UI and smooth user experience.
 
-TYPOGRAPHY:
-
-* Clean modern fonts (Inter, SF Pro, or similar)
-* Strong hierarchy: bold headings, simple readable body text
+This project is built as a **single-page dynamic portfolio website** using core frontend technologies with a focus on **clean design, responsiveness, and performance**.
 
 ---
 
-HERO SECTION (Full Screen – 100vh):
+## 🌐 Live Preview
 
-* Minimal full-width background (solid color, soft gradient, or subtle texture)
-* Centered or left-aligned content
-
-Content:
-
-* Small label: "OmnimetrixTech"
-
-* Main heading (large, bold):
-  "We Build Scalable Digital Products"
-
-* Dynamic text (changing line below main heading):
-  Examples:
-
-  * Websites.
-  * Web Apps.
-  * Digital Experiences.
-
-* Subheading:
-  "From domain to deployment — modern, affordable, and built to scale."
-
-* CTA Buttons:
-  [Start Project] (primary solid button)
-  [View Work] (secondary outline button)
-
-* Optional: small scroll indicator
+🔗 https://your-live-link-here.com *(add after deployment)*
 
 ---
 
-SERVICES SECTION:
+## 🧠 About the Project
 
-* 6 clean cards in grid layout
-* Minimal design (no heavy glassmorphism, just soft shadows or borders)
-* Each card includes:
+OmnimetrixTech represents a new era of developers — combining **creative UI**, **clean architecture**, and **scalable thinking**.
 
-  * Title
-  * Short description
-  * Starting price
+This website is designed to:
 
-Services:
-
-* Static Website (₹250/page)
-
-* Dynamic Website (₹5K–12K)
-
-* Web Application (₹8K–20K)
-
-* Mobile App (conditional plans)
-
-* Maintenance Basic (₹1000)
-
-* Premium Support (₹5000)
-
-* On click → opens simple modal with full details
+* Showcase services clearly
+* Build trust with modern UI
+* Convert visitors into clients
 
 ---
 
-TEAM SECTION:
+## ✨ Features
 
-* Clean grid or horizontal layout
-* Each member card:
-
-  * Circular image
-  * Name + role
-  * Small bio
-  * Social icons (GitHub, LinkedIn)
-
-Members:
-Altamash Siddique (CEO)
-Yash Gaikwad (CTO)
-Sumedh Kharat (COO)
-Prachi Mittra (CMO)
-Asad Choudhary (CFO)
-Akash Vishwakarma (CSO)
+* 🎯 Full-screen modern landing page
+* ⚡ Dynamic hero section (changing text / animations)
+* 🧊 Minimal + clean UI design
+* 📱 Fully responsive layout
+* 🎴 Services section with pricing
+* 👥 Team section with profiles
+* 📊 Vision & stats section
+* 📧 Functional contact form UI
+* 🎬 Smooth scrolling & subtle animations (GSAP)
 
 ---
 
-VISION / STATS SECTION:
+## 🛠️ Tech Stack
 
-* Minimal section with 4 stats:
-
-  * 7+ Projects
-  * 20+ Clients
-  * 99% Satisfaction
-  * 24/7 Support
-
-* Clean layout (no heavy effects, just typography focus)
+* **HTML5**
+* **CSS3**
+* **JavaScript (Vanilla JS)**
+* **GSAP (Animations)**
+* **Remix Icons**
 
 ---
 
-CONTACT SECTION:
+## 📁 Project Structure
 
-* Simple centered form:
-
-  * Name
-  * Email
-  * Message
-
-* Clean input fields
-
-* Minimal validation states
-
-* Display success message after submit
-
----
-
-NAVBAR:
-
-* Sticky navbar
-* Simple links: Home, Services, Team, Contact
-* Clean hover effects (underline or slight color change)
+```
+OmnimetrixTech/
+│── index.html
+│── /styles
+│    └── main.css
+│── /scripts
+│    └── app.js
+│── /assets
+│    ├── images
+│    └── icons
+```
 
 ---
 
-INTERACTIONS:
+## 🚀 Getting Started
 
-* Smooth scrolling
-* Subtle hover effects (no heavy animation)
-* Light fade/slide-in on scroll (very minimal)
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YGCodeScape/OmnimetrixTech.git
+```
+
+### 2. Open project
+
+```bash
+cd OmnimetrixTech
+```
+
+### 3. Run locally
+
+Just open `index.html` in your browser.
 
 ---
 
-GOAL:
-The design should feel like a modern startup website — simple, clean, trustworthy, and professional.
-It should look like a real agency website that clients would take seriously, not flashy or overdesigned.
+## 💼 Services Offered
+
+* Static Websites — ₹250/page
+* Dynamic Websites — ₹5K–12K
+* Web Applications — ₹8K–20K
+* Mobile App (custom plans)
+* Maintenance & Support (₹1000–₹5000)
+
+---
+
+## 👥 Team
+
+* Altamash Siddique — CEO
+* Yash Gaikwad — CTO
+* Sumedh Kharat — COO
+* Prachi Mittra — CMO
+* Asad Choudhary — CFO
+* Akash Vishwakarma — CSO
+
+---
+
+## 🎯 Vision
+
+> Building scalable, modern, and impactful digital products with clarity and precision.
+
+* 7+ Projects
+* 20+ Clients
+* 99% Satisfaction
+* 24/7 Support
+
+---
+
+## 📌 Future Improvements
+
+* 🔹 Backend integration for contact form
+* 🔹 CMS integration for dynamic content
+* 🔹 Advanced animations & micro-interactions
+* 🔹 SEO optimization
+* 🔹 Performance enhancements
+
+---
+
+## 🤝 Contributing
+
+This is currently a startup project, but suggestions and ideas are welcome.
+
+---
+
+## 📬 Contact
+
+📧 [your-email@example.com](mailto:your-email@example.com)
+🌐 (Add portfolio link)
+📸 (Add social links)
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub — it helps a lot!
+
+---
+
+### © 2026 OmnimetrixTech. All rights reserved.
