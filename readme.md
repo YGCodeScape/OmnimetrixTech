@@ -69,7 +69,7 @@ A team of passionate builders shaping the future with a modern mindset.
 ---
 🌐 Live Preview
 
-🔗 https://tindereffectyg.netlify.app/
+🔗 https://omnimetrixtech.netlify.app/
 ---
 
 ## 📬 Connect With Us
