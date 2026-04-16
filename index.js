@@ -76,7 +76,7 @@
 
     const team = [
       {
-        name: 'Altamash Siddique',
+        name: 'Altamash Siddiqui',
         role: 'CEO',
         initials: 'AS',
         color: '#00ffe7',
